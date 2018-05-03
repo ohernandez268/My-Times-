@@ -1,0 +1,128 @@
+
+header {
+  display:flex;
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
+  align-items: center;
+  position: fixed;
+  z-index: 1;
+  height: 80px;
+  width: 100%;
+  border-bottom: 1px solid black;
+  background-color: white;
+  justify-content: space-between;
+  top: 1.7px;
+
+  }
+
+.logo {
+  display: flex;
+  color: mediumaquamarine;
+  align-items: center;
+  padding-left: 40px;
+}
+
+.logo h4 {
+  padding-left: 10px;
+}
+
+nav a {
+  color: black;
+  margin-right: 60px;
+}
+
+/*--main container--*/
+.container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.container .large {
+  position: relative;
+  top: 100px;
+  width: 630px;
+  }
+
+.container .medium {
+  position: relative;
+  top: 100px;
+  width: 300px;
+}
+
+.container .small {
+  width: 240px;
+  position: relative;
+  top: 100px;
+}
+
+.container,
+.large,
+.medium,
+.small {
+  font-family: Georgia;
+  font-size: 17px;
+  color: black;
+}
+
+
+/*Hedlines with images*/
+
+h1 {
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-main.png);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  height: 300px;
+  font-size: 40px;
+  text-align: center;
+}
+
+
+div .fall-cancelled, .image-content {
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-2.png);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+  height: 300px;
+  text-align: center;
+  width:300px;
+  }
+
+  div .camera-man {
+    background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-3.png);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Georgia;
+    font-weight: bold;
+    font-size: 30px;
+    color: white;
+    height: 300px;
+    width: 300px;
+    text-align: center;
+   }
+
+  div .cat-ceo {
+    background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-1.png);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: Georgia;
+    font-weight: bold;
+    font-size: 30px;
+    color: white;
+    height: 300px;
+  }
+
+  div .side-to {
+    display: flex;
+    width: 300px;
+    flex-direction: row;
+ }
