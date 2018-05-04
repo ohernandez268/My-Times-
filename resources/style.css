@@ -165,3 +165,47 @@ div .fall-cancelled, .image-content {
     margin-right: 30px;
     width: 238px;
   }
+
+  footer {
+    display: flex;
+    flex-direction: column;
+    background-color: MediumAquamarine;
+    margin: auto;
+    font-family: Verdana;
+    font-size: 12px;
+    margin-top: 100px;
+    margin-bottom: 0;
+    height: 325px;
+    width: 100%;
+
+   }
+
+   footer .title{
+     font-family: Georgia;
+     font-size: 16px;
+     font-weight: bold;
+     color: white;
+     padding-right: 25px;
+     border-right: 2px solid white;
+
+   }
+
+   footer nav {
+     padding-left: 40px;
+   }
+
+  .title, nav {
+     display: inline-block;
+     }
+
+  .info {
+    position: relative;
+    top: 150px;
+    left: 490px;
+  }
+
+  .copyright {
+    position: relative;
+    left: 90px;
+    margin-top: 30px;
+  }
